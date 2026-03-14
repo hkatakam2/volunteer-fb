@@ -108,17 +108,17 @@ export default function Detail() {
             {opportunity.trustSignals.map((signal) => (
               <div key={signal.text} className="flex items-center gap-2.5">
                 {signal.icon === 'shield' && (
-                  <svg viewBox="0 0 24 24" fill="none" stroke="#15803d" strokeWidth={1.5} className="w-4.5 h-4.5 shrink-0">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="#15803d" strokeWidth={1.5} className="w-5 h-5 shrink-0">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
                   </svg>
                 )}
                 {signal.icon === 'star' && (
-                  <svg viewBox="0 0 24 24" fill="#15803d" className="w-4.5 h-4.5 shrink-0">
+                  <svg viewBox="0 0 24 24" fill="#15803d" className="w-5 h-5 shrink-0">
                     <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
                   </svg>
                 )}
                 {signal.icon === 'badge' && (
-                  <svg viewBox="0 0 20 20" fill="#15803d" className="w-4.5 h-4.5 shrink-0">
+                  <svg viewBox="0 0 20 20" fill="#15803d" className="w-5 h-5 shrink-0">
                     <path
                       fillRule="evenodd"
                       d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812z"
